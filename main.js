@@ -51,6 +51,10 @@ function generateSquiggle() {
 
 document.getElementById('generateScribble').addEventListener('click', generateSquiggle);
 
+document.getElementById('scribblePage').addEventListener('click', function() {
+    window.location.href = 'scribblePage.htm';
+})
+
 // Generate a squiggle on page load
 window.addEventListener('load', generateSquiggle);
 
